@@ -1,0 +1,35 @@
+{
+  "name": "uniq-with",
+  "version": "0.1.0",
+  "description": "Remove duplicates based on a predicate function",
+  "main": "./lib/index.js",
+  "scripts": {
+    "test:node": "tape test/*.js | tap-spec",
+    "test:lint": "snazzy",
+    "test": "npm-run-all -p test:*",
+    "prepublish": "mkdirp lib && buble -i src -o lib",
+    "release": "xyz"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/queckezz/uniq-with"
+  },
+  "author": "Fabian Eichenberger <fabian.eichenberger@gmail.com>",
+  "dependencies": {},
+  "devDependencies": {
+    "buble": "^0.13.1",
+    "mkdirp": "^0.5.1",
+    "npm-run-all": "^2.3.0",
+    "pull-test": "^1.2.3",
+    "snazzy": "^4.0.0",
+    "tap-spec": "^4.1.1",
+    "tape": "^4.6.0",
+    "xyz": "^1.0.0"
+  },
+  "keywords": [
+    "uniq",
+    "remove duplicates",
+    "predicate"
+  ],
+  "license": "MIT"
+}
