@@ -1,6 +1,6 @@
 {
   "name": "uniq-with",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "Remove duplicates based on a predicate function",
   "main": "./lib/index.js",
   "scripts": {
