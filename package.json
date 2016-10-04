@@ -2,7 +2,7 @@
   "name": "uniq-with",
   "version": "0.1.1",
   "description": "Remove duplicates based on a predicate function",
-  "main": "./src/index.js",
+  "main": "./lib/index.js",
   "scripts": {
     "test:node": "tape test/*.js | tap-spec",
     "test:lint": "snazzy",
